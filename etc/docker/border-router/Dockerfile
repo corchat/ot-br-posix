@@ -51,6 +51,7 @@ RUN set -x \
            iptables \
            ninja-build \
            wget \
+           socat \
     \
     && PLATFORM_SPEC="${TARGETARCH}${TARGETVARIANT:+/$TARGETVARIANT}" \
     && case "${PLATFORM_SPEC}" in \
